@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Terms & Conditions — Restoraunt Hotel</title>
+    <meta name="description" content="Terms and conditions for Restoraunt Hotel bookings, stays, cancellations and guest responsibilities." />
+    <style>
+        :root{
+            --bg:#f7f7fb;
+            --card:#fff;
+            --accent:#0b6efd;
+            --muted:#6b7280;
+            --maxw:900px;
+            --radius:10px;
+        }
+        *{box-sizing:border-box}
+        body{
+            margin:0;
+            font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            background:linear-gradient(180deg,var(--bg),#eef2ff);
+            color:#111827;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            line-height:1.6;
+        }
+        header{
+            background:#fff;
+            border-bottom:1px solid #e6e9ef;
+            padding:18px 20px;
+            position:sticky;
+            top:0;
+            z-index:20;
+            display:flex;
+            align-items:center;
+            gap:18px;
+        }
+        .logo{
+            display:flex;
+            align-items:center;
+            gap:10px;
+            text-decoration:none;
+            color:inherit;
+        }
+        .logo .mark{
+            width:44px;
+            height:44px;
+            background:linear-gradient(135deg,var(--accent),#6b24ff);
+            border-radius:8px;
+            display:inline-block;
+        }
+        header nav{margin-left:auto}
+        header a.navlink{
+            color:var(--muted);
+            text-decoration:none;
+            margin-left:18px;
+            font-weight:600;
+        }
+        main{
+            max-width:var(--maxw);
+            margin:28px auto;
+            padding:20px;
+        }
+        .card{
+            background:var(--card);
+            border-radius:var(--radius);
+            padding:28px;
+            box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+            border:1px solid rgba(15,23,42,0.03);
+        }
+        h1{
+            margin:0 0 8px 0;
+            font-size:24px;
+            letter-spacing:-0.2px;
+        }
+        .meta{
+            color:var(--muted);
+            font-size:14px;
+            margin-bottom:18px;
+        }
+        .toc{
+            display:flex;
+            gap:10px;
+            flex-wrap:wrap;
+            margin-bottom:20px;
+        }
+        .toc a{
+            background:#f3f4f6;
+            color:#111827;
+            padding:8px 12px;
+            border-radius:999px;
+            text-decoration:none;
+            font-size:13px;
+        }
+        section{margin-bottom:22px}
+        h2{font-size:18px;margin:12px 0}
+        p{margin:8px 0;color:#1f2937}
+        ul{margin:8px 0 8px 20px}
+        .muted{color:var(--muted);font-size:14px}
+        .controls{
+            display:flex;
+            gap:12px;
+            margin-top:6px;
+        }
+        button{
+            background:var(--accent);
+            color:#fff;
+            border:none;
+            padding:10px 14px;
+            border-radius:8px;
+            cursor:pointer;
+            font-weight:600;
+        }
+        button.secondary{
+            background:#fff;
+            color:var(--accent);
+            border:1px solid rgba(11,110,253,0.12);
+        }
+        footer{
+            max-width:var(--maxw);
+            margin:18px auto 40px;
+            color:var(--muted);
+            font-size:13px;
+            text-align:center;
+        }
+        @media (max-width:600px){
+            .card{padding:18px}
+            header{padding:12px}
+            .meta{font-size:13px}
+        }
+        @media print{
+            header, .controls, footer, .toc {display:none}
+            body{background:#fff}
+            .card{box-shadow:none;border:none}
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <a class="logo" href="/">
+            <span class="mark" aria-hidden="true"></span>
+            <div>
+                <strong>Restoraunt Hotel</strong><br />
+                <span style="font-size:12px;color:var(--muted)">Comfort • Cleanliness • Care</span>
+            </div>
+        </a>
+        <nav aria-label="Primary navigation">
+            <a class="navlink" href="/">Home</a>
+            <a class="navlink" href="/rooms.html">Rooms</a>
+            <a class="navlink" href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="card" aria-labelledby="terms-heading">
+            <header>
+                <h1 id="terms-heading">Terms & Conditions</h1>
+                <div class="meta">Last updated: 2025-11-17 • Please read carefully before making a booking</div>
+                <div class="toc" aria-hidden="true">
+                    <a href="#booking">Booking</a>
+                    <a href="#payment">Payment</a>
+                    <a href="#cancellation">Cancellations</a>
+                    <a href="#occupancy">Occupancy & Conduct</a>
+                    <a href="#liability">Liability</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="controls" role="group" aria-label="Page actions">
+                    <button onclick="window.print()">Print</button>
+                    <button class="secondary" onclick="document.getElementById('accept').scrollIntoView({behavior:'smooth'})">Acknowledge</button>
+                </div>
+            </header>
+
+            <section id="intro">
+                <p class="muted">These Terms & Conditions govern the use of Restoraunt Hotel's website and services, including reservations and stays. By making a booking you accept these terms. If you do not agree, do not complete the booking. This page is provided for general information purposes only and is not legal advice. For legal advice consult qualified counsel.</p>
+            </section>
+
+            <section id="booking">
+                <h2>1. Booking & Reservations</h2>
+                <p>Bookings can be made via our website, phone, or third‑party platforms. All reservations are subject to availability and confirmation. The contractual party for a booking is the person whose name appears on the booking.</p>
+                <ul>
+                    <li>Rates quoted exclude local taxes unless stated.</li>
+                    <li>Special requests are not guaranteed and are subject to availability.</li>
+                    <li>Children and extra beds may incur additional charges.</li>
+                </ul>
+            </section>
+
+            <section id="payment">
+                <h2>2. Payment</h2>
+                <p>Full payment or a deposit may be required at the time of booking depending on the rate selected. We accept major credit/debit cards and approved payment providers.</p>
+                <ul>
+                    <li>Card details are processed securely; we may pre-authorize cards prior to arrival.</li>
+                    <li>Any outstanding charges (mini-bar, damage, incidentals) must be settled on departure.</li>
+                </ul>
+            </section>
+
+            <section id="cancellation">
+                <h2>3. Cancellations & No‑Shows</h2>
+                <p>Cancellation and amendment policies vary by rate and promotion. Fees may apply for late cancellations or no‑shows.</p>
+                <ul>
+                    <li>Flexible rates allow cancellation up to a specified time before arrival without charge.</li>
+                    <li>Non‑refundable or advance purchase rates are not eligible for refunds.</li>
+                </ul>
+            </section>
+
+            <section id="occupancy">
+                <h2>4. Occupancy, Check‑In & Check‑Out</h2>
+                <p>Check‑in and check‑out times are published on our website and at the property. Early check‑in or late check‑out may be available subject to availability and fees.</p>
+                <ul>
+                    <li>Guests must present valid identification at check‑in.</li>
+                    <li>Guests are responsible for their visitors and behavior while on the premises.</li>
+                    <li>Smoking, illegal activities, and disruptive behavior are prohibited and may result in eviction without refund.</li>
+                </ul>
+            </section>
+
+            <section id="liability">
+                <h2>5. Liability & Loss</h2>
+                <p>We take reasonable care of guests and belongings but cannot accept liability for loss, theft or damage to personal property except where caused by our negligence to the extent permitted by law.</p>
+                <ul>
+                    <li>Guests are advised to secure valuables in provided safes or travel insurance.</li>
+                    <li>The hotel reserves the right to charge for damage to rooms or property caused by guests.</li>
+                </ul>
+            </section>
+
+            <section id="privacy">
+                <h2>6. Data Protection & Privacy</h2>
+                <p>We collect and process personal data to manage bookings and provide services. Our Privacy Policy explains what data we collect, how it is used, and your rights.</p>
+                <p class="muted"><a href="/privacy.html">View our Privacy Policy</a></p>
+            </section>
+
+            <section id="changes">
+                <h2>7. Amendments</h2>
+                <p>We may update these terms from time to time. The version published on our website at the time of your booking applies. Material changes will be communicated when required.</p>
+            </section>
+
+            <section id="dispute">
+                <h2>8. Governing Law & Dispute Resolution</h2>
+                <p>These terms are governed by the laws of the jurisdiction in which the hotel operates. Any disputes will be subject to the competent courts unless otherwise agreed in writing.</p>
+            </section>
+
+            <section id="contact">
+                <h2>9. Contact</h2>
+                <p>If you have questions about these Terms & Conditions or your booking please contact us:</p>
+                <p><strong>Restoraunt Hotel</strong><br />
+                     123 Comfort Avenue, City, Country<br />
+                     Email: <a href="mailto:reservations@restoraunt.example">reservations@restoraunt.example</a><br />
+                     Phone: +1 (555) 123‑4567</p>
+            </section>
+
+            <section id="accept">
+                <h2>Acknowledgement</h2>
+                <p>By completing a booking you acknowledge that you have read, understood, and agree to these Terms & Conditions.</p>
+                <p>
+                    <button onclick="acknowledge()" aria-label="Acknowledge terms">I Acknowledge</button>
+                </p>
+                <p id="ack-msg" class="muted" style="display:none">Acknowledgement recorded for this session.</p>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div>© <span id="year"></span> Restoraunt Hotel. All rights reserved.</div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        function acknowledge(){
+            document.getElementById('ack-msg').style.display = 'block';
+            // store acknowledgment in session (not persistent)
+            try{ sessionStorage.setItem('restoraunt_terms_ack', new Date().toISOString()) }catch(e){}
+        }
+        // smooth scrolling for in-page nav
+        document.querySelectorAll('.toc a, header nav a.navlink').forEach(a=>{
+            a.addEventListener('click', function(e){
+                const href = this.getAttribute('href');
+                if(href && href.startsWith('#')){
+                    e.preventDefault();
+                    const el = document.querySelector(href);
+                    if(el) el.scrollIntoView({behavior:'smooth', block:'start'});
+                }
+            });
+        });
+    </script>
+</body>
+</html></a>
